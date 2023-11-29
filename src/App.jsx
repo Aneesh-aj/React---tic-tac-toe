@@ -121,6 +121,7 @@ function App() {
 
   const reset=()=>{
     setLock(false)
+    setWinStatus(false)
     data = ["", "", "", "", "", "", "", "", ""]
     titleRef.current.innerHTML='Tic Tac Toe ';
     box_array.map((e)=>{

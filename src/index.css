@@ -28,7 +28,7 @@ body{
 }
 .boxes{
   display: flex;
-  height: 160px;
+  height: 150px;
   width: 180px;
   background:#1f3540 ;
   border-radius: 12px;
@@ -37,7 +37,7 @@ body{
   object-fit: contain;
 }
 .board{
-  height: 500px;
+  height: 470px;
   width: 564px;
   display: flex;
   margin: auto;
