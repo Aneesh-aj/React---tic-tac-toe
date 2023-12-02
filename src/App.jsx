@@ -111,7 +111,6 @@ function App() {
        titleRef.current.innerHTML=`Its a Draw`
     }
 
-
     if (winner === 'x' || winner === 'o') {
       setWinStatus(true);
     } else {
